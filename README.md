@@ -27,7 +27,7 @@
   self.dg_viewAutoSizeToDevice = YES;
 }
 
-+ (id)initWithFrame:(CGRect)frame
+- (id)initWithFrame:(CGRect)frame
 {
   self = [super initWithFrame:frame];
   if (self){
