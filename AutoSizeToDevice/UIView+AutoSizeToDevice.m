@@ -80,6 +80,7 @@
 - (void)setDg_viewAutoSizeToDevice:(BOOL)dg_viewAutoSizeToDevice
 {
     objc_setAssociatedObject(self, @selector(dg_viewAutoSizeToDevice), @(dg_viewAutoSizeToDevice), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    [self layoutSubviews];
 }
 
 + (void)load
