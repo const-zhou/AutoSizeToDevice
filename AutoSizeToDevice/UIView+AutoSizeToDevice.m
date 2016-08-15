@@ -1,10 +1,6 @@
 //
 //  UIView+AutoSizeToDevice.m
-//  XibAutoLayoutDemo
-//
-//  Created by sogou on 16/6/20.
-//  Copyright © 2016年 sogou. All rights reserved.
-//
+
 
 #import "UIView+AutoSizeToDevice.h"
 #import <objc/runtime.h>
