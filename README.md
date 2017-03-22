@@ -1,5 +1,6 @@
 # AutoSizeToDevice
 ###使用方法
+
 1.在需要自适应的视图上加上头文件
 ```
 @import "UIView+AutoSizeToDevice.h"
